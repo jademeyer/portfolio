@@ -1,11 +1,12 @@
-#name		{
+div.main {
+	background-color:#b3daff;
+}
+
+div.bottom {
+	background-color:#ff1a75;
+}
+
+div.side {
+	background-color:#1aff1a;
 }
 	
-#aboutme	{
-}
-
-ul.side	{
-}
-
-ul.bottom	{
-}
