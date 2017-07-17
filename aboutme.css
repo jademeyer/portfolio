@@ -1,12 +1,16 @@
+div {
+	padding: 30px;
+}
+
 div.main {
-	background-color:#b3daff;
+	background-color: #b3daff;
 }
 
 div.bottom {
-	background-color:#ff1a75;
+	background-color: #ff1a75;
 }
 
 div.side {
-	background-color:#1aff1a;
+	background-color: #1aff1a;
 }
 	
