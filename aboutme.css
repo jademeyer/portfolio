@@ -18,6 +18,18 @@ div.side {
 	background-color: #1aff1a;
 }
 
+h1 {
+	font-family: georgia;
+}
+
+h2 {
+	font-family: georgia;
+}
+
+p {
+	font-family: courier;
+}
+
 #name {
 	text-align: center;
 }
