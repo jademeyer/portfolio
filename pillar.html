@@ -3,19 +3,16 @@
 <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"/>
 <head>
 <link rel="stylesheet" type="text/css" href="mystyle.css">
-<script src="pillar.js"></script>
 <title> Pillar </title>
 </head>
 
 <body>
   <strong> here is where thw people will post </strong><br><br>
-  <p id="test1"></p>
-  <p id="test2"></p>
-  <p>Post:<p>
-  <input type="text" id="create_post">;
-  <script>
-  document.getElementById("test1").innerHTML = createPost(create_post);
-  document.getElementById("test2").innerHTML = listPosts();
-  </script>
+  <form action="/action_page.php">
+  What's bothering you?<br>
+  <input type="text" name="post" maxlength = "102";>
+  <br><br>
+  <input type="submit" value="Post">
+	</form>
 </body>
 </html> 
