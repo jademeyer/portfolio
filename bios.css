@@ -1,0 +1,20 @@
+.bios {
+  position: absolute;
+  left: 75px;
+}
+
+.bios img {
+  border-radius: 100%;
+  display: block;
+  margin-top: 100px;
+}
+
+.leftbio {
+  position: relative;
+  left: 75px;
+}
+
+.rightbio {
+  position: absolute;
+  right: 75px;
+}
