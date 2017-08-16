@@ -10,9 +10,14 @@
   <strong> here is where thw people will post </strong><br><br>
   <form action="/action_page.php">
   What's bothering you?<br>
-  <input type="text" name="post" maxlength = "102";>
+  <input type="text" name="post" id="post"/>
   <br><br>
   <input type="submit" value="Post">
-	</form>
+  </form>
+	<p id="finalPost"></p>
+	<script>
+		var post = document.getElementById('post').value;
+		document.getElementById("finalPost") = post;
+	</script>
 </body>
 </html> 
