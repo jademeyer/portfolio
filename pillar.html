@@ -11,8 +11,10 @@
   <strong> here is where thw people will post </strong><br><br>
   <p id="test1"></p>
   <p id="test2"></p>
+  <p>Post:<p>
+  <input type="text" id="create_post">;
   <script>
-  document.getElementById("test1").innerHTML = createPost();
+  document.getElementById("test1").innerHTML = createPost(create_post);
   document.getElementById("test2").innerHTML = listPosts();
   </script>
 </body>
