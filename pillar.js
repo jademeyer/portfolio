@@ -1,8 +1,7 @@
 var arrayOfPosts = [];
 
-function createPost() {
-	var post = prompt("What's bothering you?");
-  listOfPosts.unshift(post);
+function createPost(post) {
+  arrayOfPosts.unshift(post);
 };
   
 function listPosts(pArray) {
